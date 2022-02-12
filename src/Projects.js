@@ -19,16 +19,16 @@ const Projects = (props) => {
                     <UnorderedList styleType={'none'} textDecoration='none' mt={-10}>
                         <Link href='https://github.com/kfleung129/react_website'></Link> 
                         <ListItem mb={3} >
-                            <Link isExternal={true}href='https://github.com/kfleung129/discordBot'><Code transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaNodeJs}/> Discord Bot with NodeJS </Code></Link>
+                            <a href='https://github.com/kfleung129/discordBot' target="_blank"><Code transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaNodeJs}/> Discord Bot with NodeJS </Code></a>
                         </ListItem>
                         <ListItem mb={3}>
                             <Code transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaPython}/> Discord Bot with Python </Code>
                         </ListItem>
                         <ListItem mb={3}>
-                            <Link isExternal={true} href='https://github.com/kfleung129/website'><Code transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaHtml5}/> Website (html, css, JS) </Code></Link>
+                            <a href='https://github.com/kfleung129/website' target="_blank"><Code transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaHtml5}/> Website (html, css, JS) </Code></a>
                         </ListItem>
                         <ListItem mb={3}>
-                            <Link isExternal={true}href='https://github.com/kfleung129/react_website'><Code transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaReact}/> Website (ReactJS) </Code></Link>
+                            <a href='https://github.com/kfleung129/react_website' target="_blank"><Code transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaReact}/> Website (ReactJS) </Code></a>
                         </ListItem>
                     </UnorderedList>
                 </Box>
