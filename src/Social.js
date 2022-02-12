@@ -13,7 +13,7 @@ const Social = (props) => {
     return(
         <Layout mb={0}>
             <SlideFade in={isOpen}>
-                <Box mb={40} w={{base:'50%', md:'50%', lg:'100%'}}  fontSize={{ base: '10px', md: '25px', lg: '20' }} size={{lg: '2xl'}}>
+                <Box mb={200} w={{base:'50%', md:'50%', lg:'100%'}}  fontSize={{ base: '10px', md: '25px', lg: '20' }} size={{lg: '2xl'}}>
                     <Title id='socialMedia'>Social Media</Title>
                     <br></br><br></br>
                     <Link isExternal={true} href={'https://github.com/kfleung129'}><IconButton isRound={true} size={'lg'} icon={<FaGithub/>} bgColor={isDark ? 'default' : 'gray.300'}></IconButton></Link> 

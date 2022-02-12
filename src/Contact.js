@@ -13,7 +13,7 @@ const Contact = (props) => {
     return(
         <Layout>
             <SlideFade in={isOpen}>
-                <Box mt={'-350px'} w={['50%', '50%', '100%']}  fontSize={{ base: '15px', md: '25px', lg: '20' }} size={{lg: '2xl'}}>
+                <Box mt={'-150px'} w={['50%', '50%', '100%']}  fontSize={{ base: '15px', md: '25px', lg: '20' }} size={{lg: '2xl'}}>
                     <Title>Contact Me</Title>
                     <br></br><br></br>
                     <UnorderedList styleType={'none'}>
