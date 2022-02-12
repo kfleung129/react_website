@@ -48,10 +48,3 @@
     "gh-pages": "^3.2.3"
   }
 }
-{
-  "homepage": "https://kfleung129.github.io/react-website",
-  "name": "jason-website",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies"
-}
