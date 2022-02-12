@@ -1,14 +1,15 @@
-import { Box, Flex, Stack, Heading, useDisclosure, Slide, SlideFade, Text, Img, HStack, useColorMode} from '@chakra-ui/react'
-import { FaSchool } from 'react-icons/fa'
+import { B, Box, Flex, Stack, Heading, useDisclosure, Slide, SlideFade, Text, Img, HStack, useColorMode, list} from '@chakra-ui/react'
+import { FaSchool, FaLaptop } from 'react-icons/fa'
 import Title from './Title.js'
 import Layout from './Layout'
 
-const Header = () => {
+const Header = (props) => {
     const { isOpen, onToggle } = useDisclosure()
     const { colorMode, toggleColorMode } = useColorMode()
+    const text = <p style={{fontWeight:'bold'}}>Fast Learner</p>
     var isDark = colorMode === 'dark'
     if(isOpen === false){
-        setTimeout(onToggle, 2000)
+        setTimeout(onToggle, props.time)
     }
     return(
         <Layout>
@@ -20,7 +21,10 @@ const Header = () => {
                         <Heading> Hi, I am LEUNG Kin Fai, Jason </Heading>
                         <br></br>
                         <Text>
-                            I am a City University of Hong Kong Computer Science Year 2 Student 
+                            I am a City University of Hong Kong Computer Science Year 2 Student<br></br>
+                            <Text color={'cyan.300'} fontWeight='bold'>A Fast Learner + Problem solver</Text>
+                            who love to discover & try new techonology <br></br>
+                            looking forward to learn from both Frontend and Backend.
                         </Text>
                     </Box>
                     

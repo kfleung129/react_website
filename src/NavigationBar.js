@@ -11,7 +11,7 @@ const NavigationBar = (props) => {
     const { colorMode, toggleColorMode } = useColorMode()
     const { isOpen, onToggle } = useDisclosure()
     if(isOpen === false){
-        setTimeout(onToggle, 1000)
+        setTimeout(onToggle, props.time)
     }
     return(
         <HStack>
@@ -26,8 +26,8 @@ const NavigationBar = (props) => {
                     />
                     <Text ml={5} letterSpacing={1} fontSize={25} fontWeight={'bold'} bgClip='text' bgGradient={colorMode == 'dark' ? 'linear(to-r, green.300, cyan.500)' : 'linear(to-r, green.500, blue.700)'} transition='0.5s ease-out' _hover={{wordSpacing: 10, letterSpacing: 5}}>Jason Leung</Text>
                     <Spacer/>
-                    <Link href='#introduction'><IconButton ml={10} icon={<FaHome/>} isRound={'true'}/></Link> 
-                    <Link href='#projects'><IconButton ml={3} icon={<FaProjectDiagram/>} isRound={'true'}/></Link>
+                    <IconButton ml={10} icon={<FaHome/>} isRound={'true'}/>
+                    <IconButton ml={3} icon={<FaProjectDiagram/>} isRound={'true'}/>
                     <IconButton ml={3} icon={colorMode === 'dark' ? <FaSun/> : <FaMoon/>} isRound={'true'} onClick={toggleColorMode}/>
                 </Flex>
             </Slide>
