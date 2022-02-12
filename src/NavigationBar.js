@@ -16,7 +16,7 @@ const NavigationBar = (props) => {
     return(
         <HStack>
             <Slide in={isOpen} direction={'top'}>
-                <Flex align={'center'} p={4} w="100%" bgColor={colorMode == 'dark' ? '#23242D' : '#D6D6D6'}>
+                <Flex align={'center'} p={3} w="100%" bgColor={colorMode == 'dark' ? '#23242D' : '#D6D6D6'}>
                     <Image 
                         src='https://pbs.twimg.com/profile_images/1379425573802369028/tmGAbwb9_400x400.jpg'
                         borderRadius='full'

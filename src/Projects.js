@@ -22,7 +22,7 @@ const Projects = (props) => {
                             <a href='https://github.com/kfleung129/discordBot' target="_blank"><Code transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaNodeJs}/> Discord Bot with NodeJS </Code></a>
                         </ListItem>
                         <ListItem mb={3}>
-                            <Code transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaPython}/> Discord Bot with Python </Code>
+                            <Code cursor={'pointer'} transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaPython}/> Discord Bot with Python </Code>
                         </ListItem>
                         <ListItem mb={3}>
                             <a href='https://github.com/kfleung129/website' target="_blank"><Code transition='0.5s ease-out' _hover={{wordSpacing: 6, color: 'cyan.500'}} borderRadius={12} w={'fit-content'} pl={3} pr={3} pt={2} pb={2} display={'flex'} alignItems='center' fontSize={'25'}><Icon mr={2} as={FaHtml5}/> Website (html, css, JS) </Code></a>

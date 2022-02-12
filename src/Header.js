@@ -22,7 +22,7 @@ const Header = (props) => {
                         <br></br>
                         <Text>
                             I am a City University of Hong Kong Computer Science Year 2 Student<br></br>
-                            <Text color={'cyan.300'} fontWeight='bold'>A Fast Learner + Problem solver</Text>
+                            <Text color={isDark ? 'cyan.300' : 'cyan.600'} fontWeight='bold'>A Fast Learner + Problem solver</Text>
                             who love to discover & try new techonology <br></br>
                             looking forward to learn from both Frontend and Backend.
                         </Text>
