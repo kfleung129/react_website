@@ -32,7 +32,7 @@ const Header = (props) => {
             </SlideFade>
             <SlideFade in={isOpen}>
                 <Box>
-                    <Img src='https://portland-my.sharepoint.com/personal/kfleung68-c_my_cityu_edu_hk/Documents/Pic/jason-pic.png' w={{base:60, md:400, lg:300}} borderRadius={"50%"} ml={{base: -10, md: -50, lg: 350}}/>
+                    <Img src='https://pasteboard.co/y8jei52Dz2gL.png' w={{base:60, md:400, lg:300}} borderRadius={"50%"} ml={{base: -10, md: -50, lg: 350}}/>
                 </Box>
             </SlideFade>    
         </Layout>
