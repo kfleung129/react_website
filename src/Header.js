@@ -12,30 +12,31 @@ const Header = (props) => {
         setTimeout(onToggle, props.time)
     }
     return(
-        <Layout>
-            <SlideFade in={isOpen}>
-                <Box w={['50%', '50%', '100%']}  fontSize={{ base: '15px', md: '25px', lg: '20' }} size={{lg: '2xl'}}>
-                    <Title id='introduction'>Introduction</Title>
-                    <br></br><br></br><br></br>
-                    <Box>
-                        <Heading> Hi, I am LEUNG Kin Fai, Jason </Heading>
-                        <br></br>
-                        <Text>
-                            I am a City University of Hong Kong Computer Science Year 2 Student<br></br>
-                            <Text color={isDark ? 'cyan.300' : 'cyan.600'} fontWeight='bold'>A Fast Learner + Problem solver</Text>
-                            who love to discover & try new techonology <br></br>
-                            looking forward to learn from both Frontend and Backend.
-                        </Text>
+        <Box>
+            <HStack mt={[40, 150, 250]} ml={{base:10, md: 50, lg: 300}}>
+                <SlideFade in={isOpen}>
+                    <Box w={['50%', '50%', '100%']}  fontSize={{ base: '15px', md: '25px', lg: '20' }} size={{lg: '2xl'}}>
+                        <Title id='introduction'>Introduction</Title>
+                        <br></br><br></br><br></br>
+                        <Box>
+                            <Heading> Hi, I am LEUNG Kin Fai, Jason </Heading>
+                            <br></br>
+                            <Text>
+                                I am a City University of Hong Kong Computer Science Year 2 Student<br></br>
+                                <Text color={isDark ? 'cyan.300' : 'cyan.600'} fontWeight='bold'>A Fast Learner + Problem solver</Text>
+                                who love to discover & try new techonology <br></br>
+                                looking forward to learn from both Frontend and Backend.
+                            </Text>
+                        </Box>
                     </Box>
-                    
-                </Box>
-            </SlideFade>
-            <SlideFade in={isOpen}>
-                <Box>
-                    <Img src='https://gcdnb.pbrd.co/images/y8jei52Dz2gL.png?o=1' w={{base:60, md:350, lg:400}} borderRadius={"50%"} ml={{base: -10, md: -50, lg: 350}}/>
-                </Box>
-            </SlideFade>    
-        </Layout>
+                </SlideFade>
+                <SlideFade in={isOpen}>
+                    <Box>
+                        <Img src='https://gcdnb.pbrd.co/images/y8jei52Dz2gL.png?o=1' w={{base:60, md:350, lg:400}} borderRadius={"50%"} ml={{base: -10, md: -50, lg: 350}}/>
+                    </Box>
+                </SlideFade>    
+            </HStack>
+        </Box>
     )
 }
 
