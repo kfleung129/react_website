@@ -1,7 +1,6 @@
 import { B, Box, Flex, Stack, Heading, useDisclosure, Slide, SlideFade, Text, Img, HStack, useColorMode, list} from '@chakra-ui/react'
 import { FaSchool, FaLaptop } from 'react-icons/fa'
 import Title from './Title.js'
-import Layout from './Layout'
 
 const Header = (props) => {
     const { isOpen, onToggle } = useDisclosure()

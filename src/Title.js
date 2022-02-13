@@ -17,7 +17,9 @@ const Title = (props) => {
         width={'fit-content'}
         fontSize={{base:'20px', md:'25px', lg:'auto'}}
         transition='0.3s ease-out' 
-        _hover={isDark ? {color:'cyan.100', bgColor:'cyan.700'} : {color: 'gray.100', bgColor:'gray.500'}}>
+        _hover={isDark ? {color:'cyan.100', bgColor:'cyan.700'} : {color: 'gray.100', bgColor:'gray.500'}}
+        boxShadow='lg'
+        >
         {props.children}
     </Heading>
   )

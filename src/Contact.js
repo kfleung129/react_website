@@ -1,7 +1,6 @@
 import { Link, ListItem, List, UnorderedList, Icon, Text, Flex, Code, Box, SlideFade, useColorMode, useDisclosure, HStack } from '@chakra-ui/react'
 import { FaMailBulk, FaPhone } from 'react-icons/fa'
 import Title from './Title'
-import Layout from './Layout'
 
 const Contact = (props) => {
     const { isOpen, onToggle } = useDisclosure()
